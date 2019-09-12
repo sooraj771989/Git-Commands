@@ -1,5 +1,3 @@
-# Git-Commands
-
 Create a new repository
 create a new directory, open it and perform
 git init
@@ -80,7 +78,7 @@ git log --name-status
 
 These are just a few of the possible parameters you can use. For more, see git log --help
 Replace Local Changes
-In case you did something wrong, you can replace local changes using the command git checkout -- <filename>
+In case you did something wrong, you can replace local changes using the command git checkout -- <filename>
 
 This replaces the changes in your working tree with the last content in HEAD. Changes already added to the index, as well as new files, will be kept.
 
@@ -108,10 +106,10 @@ git push origin branch-b
 
 Check in github for branch-b to ensure you have done cherry-pick successfully.
 Git Stash
-              a. The git stash command takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy. Note that the stash is local to your Git repository; stashes are not transferred to the server when you push.
+              a. The git stash command takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy. Note that the stash is local to your Git repository; stashes are not transferred to the server when you push.
 
 git stash
-              b. You can reapply previously stashed changes with git stash pop.Popping your stash removes the changes from your stash and reapplies them to your working copy.
+              b. You can reapply previously stashed changes with git stash pop.Popping your stash removes the changes from your stash and reapplies them to your working copy.
 
 git stash pop
 c. Restores the most recently stashed files
@@ -120,7 +118,3 @@ git stash list
 
 
 d. Lists all stashed changesets
-
-git stash drop
-13.Cheatsheet
-see this pdf : Git Sheet & Git cheat sheet
